@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="stylesheet" href="/assets/output.css">
   <title>Curso Tailwind Midudev</title>
 </head>
 
@@ -65,14 +65,111 @@
     </section>
 
     <p class="
-    text-center text-xl mt-4
+    text-center text-xl text-balance mt-4 px-4
     ">
-      Desarrollador Web y Frontend, con conocimientos en HTML, CSS, JavaScript, NodeJs, Angular, React, Tailwind,
+      Desarrollador Web y Frontend, con conocimientos en HTML, CSS, JavaScript, Node.js, Angular, React, Tailwind,
       Bootstrap
     </p>
+
+    <main class="pt-4 px-4 pb-16">
+      <div class="grid grid-cols-3 grid-rows-2 g-3 w-full">
+        <a href="https://html.com/" target="_blank" class="
+          relative rounded-3xl overflow-hidden 
+          bg-linear-to-br from-orange-900 via-orange-600 to-orange-200
+          flex flex-col items-start
+          hover:scale-105 hover:contrast
+          transition
+          col-span-2 p-7 min-h-44 m-1.5
+          group
+        ">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl">
+            HTML
+          </span>
+
+          <svg class="absolute size-28 -right-4 -bottom-6 -rotate-6
+            group-hover:-rotate-12 group-hover:scale-125 transition-transform
+          ">
+            <use href="/assets/sprite.svg#html" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-sm border rounded-xl px-2 py-0.5">Aprende HTML</span>
+        </a>
+
+        <a href="https://www.w3schools.com/css/" target="_blank" class="
+          relative rounded-3xl overflow-hidden 
+          bg-linear-to-br from from-purple-950 via-css to-purple-500
+          flex flex-col items-start
+          hover:scale-105 hover:contrast
+          transition
+          col-span-1 p-7 min-h-44 m-1.5
+          group
+        ">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl">
+            CSS
+          </span>
+
+          <svg class="absolute size-28 -right-4 -bottom-4 -rotate-6
+            group-hover:-rotate-12 group-hover:scale-125
+            transition-transform
+          ">
+            <use href="/assets/sprite.svg#css" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-sm border rounded-xl px-2 py-0.5">Aprende CSS</span>
+        </a>
+
+        <!-- ***************************************************************************************************** -->
+
+        <a href="https://html.com/" target="_blank" class="
+          relative rounded-3xl overflow-hidden 
+          bg-linear-to-br from-green-900 via-green-700 to-green-300
+          flex flex-col items-start
+          hover:scale-105 hover:contrast
+          transition
+          col-span-1 p-7 min-h-44 m-1.5
+          group
+        ">
+          <span class="absolute bottom-1 left-4 font-bold text-2xl">
+            Node
+          </span>
+
+          <svg class="absolute size-22 -right-4 -bottom-4 -rotate-6
+            group-hover:-rotate-12 group-hover:scale-125 transition-transform
+          ">
+            <use href="/assets/sprite.svg#node" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-sm border rounded-xl px-2 py-0.5">Aprende Node</span>
+        </a>
+
+        <a href="https://www.w3schools.com/css/" target="_blank" class="
+          relative rounded-3xl overflow-hidden 
+          bg-linear-to-br from from-yellow-400 via-yellow-300 to-yellow-200
+          flex flex-col items-start
+          hover:scale-105 hover:contrast
+          transition
+          col-span-2 p-7 min-h-44 m-1.5
+          group
+        ">
+          <span class="absolute bottom-2 left-4 font-bold text-2xl">
+            JavaScript
+          </span>
+
+          <svg class="absolute size-28 -right-4 -bottom-4 -rotate-6
+            group-hover:-rotate-12 group-hover:scale-125
+            transition-transform
+          ">
+            <use href="/assets/sprite.svg#js" />
+          </svg>
+
+          <span class="absolute top-2 left-4 text-sm border rounded-xl px-2 py-0.5">Aprende JavaScript</span>
+        </a>
+
+      </div>
+    </main>
   </header>
 
-  <footer class="text-color-primary">
+  <footer>
     <p class="text-rose-400">Desarrollado por Ricardo Ferreira</p>
   </footer>
 </body>

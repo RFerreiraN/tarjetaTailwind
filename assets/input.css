@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+
+/* Definimos Variables */
+
 @theme {
-  --color-primary : #09f
+
+  /* Colores */
+  --color-primary: #09f;
+  --color-primary-ligth: #ceecff;
+  --color-primary-dark: rgb(0, 22, 83);
+  --color-css : #663399;
+
+  /* Breakpoints */
+
+  --breakpoint-xs : 350px;
 }
